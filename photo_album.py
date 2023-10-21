@@ -18,7 +18,7 @@ class PhotoAlbum:
         number_of_pages = ceil(photos_count / 4)
         return cls(number_of_pages)
 
-    def add_photo(self, label: str):
+    def add_photo(self, label: str): # add 4 photos on every page
         if len(self.photos[self.current_page_index]) == 4:
             self.current_page_index += 1
         try:
