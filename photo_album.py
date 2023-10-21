@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-# This is a test for using github
-=======
->>>>>>> Stashed changes
 from math import ceil
 
 
